@@ -5,7 +5,7 @@ const mainImg = document.getElementById("mainImg");
 
 
     var randomNum = (Math.floor(Math.random () * 5));
-    var randomImg = ("./Img" + randomNum + ".png");
+    var randomImg = ("Img" + randomNum + ".jpg");
 
     mainImg.setAttribute ("src", randomImg);
 
