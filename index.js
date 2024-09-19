@@ -21,7 +21,7 @@ const myWishForYou = [
   "I sincecerly think the world will be a beatiful place if its filled with Tems.",
   "May your dreams come true so we call all say, 'oh, wow, glad she did that. Wow, she's amazing.'",
   "Hello, Tem. Make a wish. I make one on your behalf though, your feet shall find the path that favours, your journey shall lead you to find grace, and your dreams shall meet fulfillment.",
-  "Happy Birthday, Omo Mummy Temi.", "Hey, smile", "Stay true to yourself, and keep beleiving.", "Don't worry. Not everybody knows the value of gold. Just stay shinning.", "The world is filled with amazing people. You're one.", "The sun is beautiful, powerful. Most people ignore it, understimate it's importance, and think less of it. Because it's the sun. That won't stop the sun from being the sun. Amazing. Powerful. Mysterious. It's refelction on the stream, a beatiful sight. You have a few similarities with the Sun."
+  "Happy Birthday, Omo Mummy Temi.", "Hey, smile", "Please, stay true to yourself. You're adorable", "Don't worry. Not everybody knows the value of gold. Just stay shinning.", "The world is filled with amazing people. You're one.", "The sun is beautiful, powerful. Most people ignore it, understimate it's importance, and think less of it. Because it's the sun. That won't stop the sun from being the sun. Amazing. Powerful. Mysterious. It's refelction on the stream, a beatiful sight. You have a few similarities with the Sun."
 ]
 
 var wishText = document.getElementById("wishtext");
