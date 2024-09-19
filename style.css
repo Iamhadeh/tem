@@ -1,26 +1,41 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+
 body {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh; */
-    background-color: black;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+
+}
+
+button {
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
-    color: white;
+    color: silver;
 }
 
 .btn {
     height: 30px;
     width: 100px;
     border-radius: 50px;
-    border: 3px solid white;
-    background-color: brown;
-    color: white;
+    border: 3px solid yellowgreen;
+    background-color: black;
+    color: silver;
 }
 
  #mainImg {
@@ -41,51 +56,35 @@ h1 {
  #wishes {
    display: flex;
    flex-direction: column;
-   gap: 50px;
-   height: 500px;
+   gap: 20px;
+   height: 600px;
    width: 400px;
    justify-content: center;
    align-items: center;
    border: 2px solid white;
+   background-color: silver;
  }
 
- #mainContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 300px;
-    border: 2px solid  yellow;
- }
+
 
 
  #wishtext {
    color: greenyellow;
+   font-family: "Caveat", cursive;
+   font-size: 1.4rem;
+   
  }
 
- #text {
-    height: 70px;
-    width: 400px;
-    background-color: green;
-
- }
-
- #instrutction {
-   background-color: white;
-   height: 50px;
-   width: 400px;
- }
 
  #wishtext {
    width: 200px;
  }
 
+
  #wish-box {
-   height: 250px;
+   height: 400px;
     width: 300px;
-    background-color: blue;
-    position: absolute;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,26 +93,20 @@ h1 {
     padding: 0px;
  }
 
- #cover{
+ /* #cover{
     display: flex;
     height: 400px;
     width: 400px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     /* background-color: red; */
-    border: 2px solid red;
+    /* border: 2px solid red;
     position: relative;
     bottom: 10px;
- }
+ } */
 
 
- .squareCover {
-   height: 40px;
-   width: 40px;
-   background-color: white;
-   border: 1px solid black;
-   box-sizing: border-box;
- }
+
 
 .btnw {
     height: 25px;

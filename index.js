@@ -1,53 +1,46 @@
 
-// create two div that sit over each other -- done
-//make one of them display the wish
-// the other one will cover the wish up 
-//make sure the second cover is divided into square divs so she can click and make them disappear
-//make the top cover disappear 
-//create a refresh button that chenges what's one the wish box
-//hang the refresh button on the corner of the entire div
+
+
+const mainImg = document.getElementById("mainImg");
+
+
+    var randomNum = (Math.floor(Math.random () * 5));
+    var randomImg = ("./Img" + randomNum + ".png");
+
+    mainImg.setAttribute ("src", randomImg);
+
+
+console.log(randomNum)
 
 
 
 const myWishForYou = [
-    "I know there are lots of stars. Tem, you're a star. I don't know so much about you, but I know you're made from the finest star materials",
-  "We met at the time the universe designed so we could appreciate what it means when beautiful things, curious things, and amazing things come in contact ", 
-  "I sincecerly think the world will be a beatiful place if its full of Tems.",
-  "May the Lord bless you so I can secretly tell myself, 'oh, wow, glad she did that. She shared that dream with me a while ago.",
-  "Hello, Tem. Make a wish. I make one on your behalf though, your feet shall find the path that favours, your journey shall lead you to find grace, and your dreams shall meet fulfillment."
+    "Tem, you're a star. I don't know so much about you, but I know you're made from the finest star materials",
+  "When I remember you, I will remember beautiful things, curious things, and amazing things", 
+  "I sincecerly think the world will be a beatiful place if its filled with Tems.",
+  "May your dreams come true so we call all say, 'oh, wow, glad she did that. Wow, she's amazing.",
+  "Hello, Tem. Make a wish. I make one on your behalf though, your feet shall find the path that favours, your journey shall lead you to find grace, and your dreams shall meet fulfillment.",
+  "Happy Birthday, Omo Mummy Temi.", "Hey, smile", "Stay true to yourself, and keep beleiving.", "Don't worry. Not everybody knows the value of gold. Just stay shinning.", "The world is filled with amazing people. You're one.", "The sun is beautiful, powerful. Most people ignore it, understimate it's importance, and think less of it. Because it's the sun. That won't stop the sun from being the sun. Amazing. Powerful. Mysterious. It's refelction on the stream, a beatiful sight. You have a few similarities with the Sun."
 ]
 
 var wishText = document.getElementById("wishtext");
 
-var randomNumber = Math.floor(Math.random() * myWishForYou.length);
-
-console.log(randomNumber);
-
-    wishText.innerHTML = myWishForYou [randomNumber]; 
-
-    // var squareCover = document.getElementById("cover");
+let  randomNumber = Math.floor(Math.random() * myWishForYou.length);
+wishText.innerHTML = myWishForYou [randomNumber]; 
     
     
+const btnNext = document.getElementById("btnnext"); 
 
+console.log(btnNext)
 
-
-var htmlElements = "";
-for (var i = 0; i < 50; i++) {
-   htmlElements += '<div class="squareCover"></div>';
+function changeText () {
+        let  randomNumber = Math.floor(Math.random() * myWishForYou.length);
+        wishText.innerHTML = myWishForYou [randomNumber]; 
+        console.log(randomNumber)
 }
-var cover = document.getElementById("cover");
-cover.innerHTML = htmlElements;
 
-//  var allCover = cover.innerHTML
-// //  var allCover = allCover.length
+btnNext.addEventListener("click", changeText);
 
-var wishBox = document.getElementById("wish-box");
-
-cover.addEventListener("click", function() {
-    cover.style.display ="none"
-    wishBox.setAttribute("style","width:400px");
-    wishBox.setAttribute("style","height:400px");
-});
 
 
 
