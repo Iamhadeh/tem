@@ -52,7 +52,7 @@ section {
 }
 
 #image1{ 
-    animation: animateIn 2.4s ease;
+animation: animateIn 2.4s ease;
 -webkit-animation: animateIn 2.4s ease;
 -moz-animation: animateIn 2.4s ease;
 -o-animation: animateIn 2.4s ease;
