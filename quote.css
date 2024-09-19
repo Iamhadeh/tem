@@ -19,8 +19,9 @@ section {
 
 .box {
     width: 300px;
-    height: 250px;
+    height: 200px;
     border: 2px solid greenyellow;
+    
 }
 
 .box > img {
@@ -28,10 +29,98 @@ section {
     width: 300px;
 }
 
+
+#image1{ 
+    animation: animateIn 2.8s ease;
+-webkit-animation: animateIn 2.8s ease;
+-moz-animation: animateIn 2.8s ease;
+-o-animation: animateIn 2.8s ease;
+-ms-animation: animateIn 2.8s ease;
+}
+
+@keyframes animateIn {
+0% {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+100% {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+}
+
+#image1{ 
+    animation: animateIn 2.4s ease;
+-webkit-animation: animateIn 2.4s ease;
+-moz-animation: animateIn 2.4s ease;
+-o-animation: animateIn 2.4s ease;
+-ms-animation: animateIn 2.4s ease;
+}
+
+@keyframes animateIn {
+0% {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+100% {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+}
+
+#image2{ 
+    animation: animateIn 3.8s ease;
+-webkit-animation: animateIn 3.8s ease;
+-moz-animation: animateIn 3.8s ease;
+-o-animation: animateIn 3.8s ease;
+-ms-animation: animateIn 3.8s ease;
+}
+
+@keyframes animateIn {
+0% {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+100% {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+}
+
+#image3{ 
+    animation: animateIn 4.8s ease;
+-webkit-animation: animateIn 4.8s ease;
+-moz-animation: animateIn 4.8s ease;
+-o-animation: animateIn 4.8s ease;
+-ms-animation: animateIn 4.8s ease;
+}
+
+@keyframes animateIn {
+0% {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+100% {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+}
+
+
+
 @media screen and (max-width: 600px) { 
 
     h2 {
         font-size: 1.4rem;
+        text-align: center;
     }
 
 }
@@ -44,7 +133,7 @@ section {
 
     .box {
         width: 250px;
-        height: 250px;
+        height: 200px;
         border: 2px solid greenyellow;
         display: flex;
         justify-content: center;
@@ -52,8 +141,8 @@ section {
     }
     
     .box > img {
-        width: 250px;
-        height: 200px;
+        width: 220px;
+        height: 150px;
     }
 }
 
